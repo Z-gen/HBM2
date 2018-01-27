@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "PFBeauSansProRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PFBeauSansPro-Regular/PFBeauSansPro-Regular.eot") format("embedded-opentype"),
+  url("../fonts/PFBeauSansPro-Regular/PFBeauSansPro-Regular.woff") format("woff"),
+  url("../fonts/PFBeauSansPro-Regular/PFBeauSansPro-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "PFBeauSansProSemiBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.eot") format("embedded-opentype"),
+  url("../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.woff") format("woff"),
+  url("../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+    font-family: "PFBeauSansProBold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.eot") format("embedded-opentype"),
+    url("../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.woff") format("woff"),
+    url("../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.ttf") format("truetype"); }
