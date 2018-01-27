@@ -154,6 +154,9 @@ h1 {
     content: '';
     background-color: #fff;
     box-shadow: -4px 7px 7px rgba(157, 157, 157, 0.2);
+    bottom: -45px;
+    height: 45px;
+    width: 30%;
 }
 
 /*Logo header*/
@@ -173,7 +176,18 @@ h1 {
     border-radius: 60px;
     transform: rotate(20deg);
     background-color: #fff;
+    box-shadow: 8px -1px 18px rgba(157, 157, 157, 0.1);
+}
+.headerLogo:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 37px;
+    bottom: -45px;
+    height: 45px;
+    background-color: #fff;
     box-shadow: 3px 1px 5px rgba(157, 157, 157, 0.21);
+    border-radius: 0 0 65px 0;
 }
 
 /*Logo header*/
@@ -332,12 +346,13 @@ h1 {
     color: #fff;
     padding-right: 35px;
     padding-bottom: 55px;
-    top: 160px;
+    margin-top: 130px;
 }
 
 .sliderHome h1 {
     margin-bottom: 15px;
     text-transform: uppercase;
+    line-height: 1;
 }
 
 .sliderHome .slick-dots {
@@ -366,6 +381,61 @@ h1 {
 
 .sliderHome .slick-dots li.slick-active button {
      border: 4px solid #fff;
+}
+
+.underSlider {
+   position: relative;
+   top: 40px;
+}
+
+.underSlider ul {
+    padding: 0;
+    background-color: #ffb836;
+    position: relative;
+    z-index: 100;
+}
+
+.underSlider ul:before {
+    position: absolute;
+    content: '';
+    left: -411px;
+    width: 412px;
+    height: 100%;
+    background-color: #ffb836;
+    top: 0;
+}
+
+.underSlider ul:after {
+    content: '';
+    position: absolute;
+    right: -49px;
+    top: 0;
+    background-image: url(../img/sprite.png);
+    background-position: 0px -172px;
+    width: 50px;
+    height: 100%;
+}
+
+.underSlider ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.underSlider ul li:last-child {
+    margin-right: 0;
+}
+
+.underSlider__link {
+    color: #fff;
+    display: inline-block;
+    padding: 27px 0;
+}
+
+.underSlider__icon {
+    margin-right: 5px;
+    vertical-align: top;
+    margin-top: -2px;
 }
 
 .headerInfo {
@@ -584,6 +654,36 @@ a.btn-usually:hover {
     vertical-align: middle;
 }
 
+.document-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: -2px -128px;
+
+}
+
+.miniLogo-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: -31px -128px;
+
+}
+.reward-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: -60px -128px;
+
+}
+.privacy-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: -89px -128px;
+
+}
+
 
 /*Icons*/
 
@@ -614,47 +714,7 @@ a.btn-usually:hover {
    ========================================================================== */
 
 @media only screen and (max-width: 2000px) {
-    .bottomHeaderMenu:after {
-        bottom: -45px;
-        height: 47px;
-        width: calc(40% + 10px);
-    }
-}
-
-@media only screen and (max-width: 1710px) {
-    .bottomHeaderMenu:after {
-        bottom: -45px;
-        height: 45px;
-        width: calc(39% + 10px)
-    }
-}
-
-@media only screen and (max-width: 1710px){
-    .bottomHeaderMenu:after {
-        bottom: -44px;
-        height: 45px;
-        width: calc(38% + 10px)
-    }
-}
-
-@media only screen and (max-width: 1470px) {
-    .bottomHeaderMenu:after {
-        width: calc(37% + 10px);
-    }
-}
-
-@media only screen and (max-width: 1370px) {
-    .bottomHeaderMenu:after {
-        width: calc(36% + 10px);
-        bottom: -44px;
-        height: 45px;
-    }
-}
-
-@media only screen and (max-width: 1270px) {
-    .bottomHeaderMenu:after {
-        width: calc(35% + 10px);
-    }
+    
 }
 
 @media print,
