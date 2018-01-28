@@ -1,0 +1,143 @@
+/* ==========================================================================
+   REVIEW.HTML PAGE
+   ========================================================================== */
+
+
+
+
+/*section review*/
+
+.reviewStats {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.reviewStats__num {
+    font-size: 60px;
+    color: #ffb836;
+    font-family: PFBeauSansProRegular;
+    margin-right: 25px;
+}
+
+.reviewStats__descr {
+    color: #a6a6a6;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.sectionReviews__item {
+    margin-bottom: 38px;
+}
+
+/* review */
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review__reviewerInfoWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.review__avatarWrapper {
+    width: 114px;
+    height: 114px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #ffcc6e;
+    background-color: #e2e2e2;
+    box-shadow: 0px 0px 0px 9px #fff inset;
+    overflow: hidden;
+    display: flex;
+}
+
+.review__avatarWrapper > img {
+    width: 92px;
+    height: 92px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.review__reviewerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffcc6e;
+    flex-grow: 100;
+    height: 114px;
+}
+
+.review__reviewerInfo > div {
+    background-color: #fff;
+    flex-basis: 55.5px;
+    padding-left: 10px;
+}
+
+.review__reviewerInfo p {
+    margin: 0;
+}
+
+.review__nameAndAge {
+    color: #636363;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    top: 5px;
+    position: relative;
+}
+
+.review__address {
+    font-size: 12px;
+    color: #949494;
+}
+
+.review__date {
+    font-size: 14px;
+    color: #9d9d9d;
+    padding-top: 6px;
+}
+
+
+.review__quoteSeparatorWrapper {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+}
+
+.review__quoteSeparator {
+    background-image: url(../img/sprite.png);
+    width: 37px;
+    height: 31px;
+    background-position: 0px -259px;
+}
+
+.review__textWrapper {
+    flex-shrink: 10000;
+    max-width: 730px;
+    position: relative;
+    padding: 10px 5px;
+}
+
+.review__textWrapper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url(../img/review_frame.png);
+    width: 404px;
+    height: 125px;
+    bottom: 0;
+    right: 0;
+}
+
+.review__text {
+    font-size: 14px;
+    color: #868686;
+}
