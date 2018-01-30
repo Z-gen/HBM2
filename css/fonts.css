@@ -8,7 +8,6 @@
 @font-face {
   font-family: "PFBeauSansProSemiBold";
   font-style: normal;
-  font-weight: 700;
   src: url("../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.eot") format("embedded-opentype"),
   url("../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.woff") format("woff"),
   url("../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.ttf") format("truetype"); }
@@ -20,3 +19,11 @@
     src: url("../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.eot") format("embedded-opentype"),
     url("../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.woff") format("woff"),
     url("../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.ttf") format("truetype"); }
+
+@font-face {
+    font-family: "PFBeauSansProLight";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/PFBeauSansPro-Light/PFBeauSansPro-Light.eot") format("embedded-opentype"),
+    url("../fonts/PFBeauSansPro-Light/PFBeauSansPro-Light.woff") format("woff"),
+    url("../fonts/PFBeauSansPro-Light/PFBeauSansPro-Light.ttf") format("truetype"); }

@@ -164,7 +164,10 @@
 
 .previewVideo {
 	padding-bottom: 36px;
+<<<<<<< HEAD
+=======
 	overflow: hidden;
+>>>>>>> 4f0106b4da71824357ac5340ba94fdf1341321aa
 	padding-left: 40px;
 }
 
@@ -298,6 +301,10 @@
 	border-radius: 10px;
 	overflow: hidden;
 	margin: 0 5px;
+<<<<<<< HEAD
+	cursor: pointer;
+=======
+>>>>>>> 4f0106b4da71824357ac5340ba94fdf1341321aa
 	position: relative;
 }
 
