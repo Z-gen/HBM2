@@ -28,6 +28,10 @@
     padding-top: 20px;
 }
 
+.sectionReviews {
+	margin-bottom: 20px;
+}
+
 .sectionReviews__item {
     margin-bottom: 38px;
 }
@@ -140,4 +144,198 @@
 .review__text {
     font-size: 14px;
     color: #868686;
+}
+
+
+/* video review */
+
+.videoReview {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.videoReview__previewSliderWrapper {
+	width: calc(40% + 40px);
+	margin-left: -40px;
+}
+
+.previewVideo {
+	padding-bottom: 36px;
+	overflow: hidden;
+	padding-left: 40px;
+}
+
+.previewVideo__thumbContainer {
+	height: 290px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.previewVideo::after {
+	content: '';
+	display: block;
+	position: absolute;
+	background-image: url(../img/sprite.png);
+	width: 39px;
+	height: 39px;
+	bottom: 45px;
+	right: 9px;
+	background-position: -51px -172px;
+}
+
+.previewVideo__top {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	left: 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.previewVideo__top .previewVideo__date {
+	padding-right: 25px;
+}
+
+.previewVideo__top .review__date {
+	color: #fff;
+}
+
+.previewVideo__top .previewVideo__playBtn {
+	width: 120px;
+	height: 70px;
+	border-radius: 60px;
+	display: flex;
+	background-color: #ffb836;
+}
+
+.previewVideo__top .previewVideo__playBtnIcon {
+	width: 11px;
+	height: 14px;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -260px -13px;
+	margin: auto;
+	position: relative;
+	left: 3px;
+}
+
+.previewVideo__bottom {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	padding-left: 25px;
+}
+
+.previewVideo__bottom .review__avatarWrapper {
+	box-shadow: 0px 0px 0px 3px #fff inset, 0px 0px 0px 5px #fff;
+	width: 74px;
+	height: 74px;
+}
+
+.previewVideo__bottom .review__avatarWrapper > img {
+	width: 64px;
+	height: 64px;
+}
+
+.previewVideo__bottom > .review__reviewerInfo,
+.previewVideo__bottom > .review__reviewerInfo > div {
+	background-color: transparent;
+	height: unset;
+}
+
+.previewVideo__bottom .review__reviewerInfo p {
+	color: #fff;
+	margin-left: 15px;
+}
+
+.previewVideo__bottom .review__nameAndAge {
+	top: -19px;
+}
+
+.previewVideo__bottom .review__address {
+	position: relative;
+	top: -19px;
+}
+
+.videoReview__2RowsSliderWrapper {
+	width: calc(60% - 30px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 290px;
+}
+
+.rowSlider__nextArr {
+	background-image: url(../img/sprite.png);
+	width: 24px;
+	height: 24px;
+	background-position: -289px -9px;
+	cursor: pointer;
+	position: absolute;
+	right: -30px;
+	top: calc(50% - 12px);
+}
+
+.rowSlider__prevArr {
+	background-image: url(../img/sprite.png);
+	width: 24px;
+	height: 24px;
+	background-position: -309px -9px;
+	cursor: pointer;
+	position: absolute;
+	right: -30px;
+	top: calc(50% - 12px);
+}
+
+.videoItem {
+	height: 132px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 0 5px;
+	position: relative;
+}
+
+.videoItem .videoItem__overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.1);
+	display: flex;
+}
+
+.videoItem__playBtn {
+	height: 40px;
+	width: 40px;
+	background-color: #FFB836;
+	border-radius: 50%;
+	display: flex;
+	margin: auto;
+}
+
+.videoItem__playBtnIcon {
+	width: 6px;
+	height: 8px;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -282px -16px;
+	margin: auto;
+	position: relative;
+	left: 1px;
+}
+
+.videoItem > img,
+.previewVideo__thumbContainer > img {
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
+
+.slick-slide {
+	outline: none !important;
 }
