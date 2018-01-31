@@ -139,6 +139,7 @@
     height: 125px;
     bottom: 0;
     right: 0;
+	z-index: -1;
 }
 
 .review__text {
@@ -164,10 +165,7 @@
 
 .previewVideo {
 	padding-bottom: 36px;
-<<<<<<< HEAD
-=======
 	overflow: hidden;
->>>>>>> 4f0106b4da71824357ac5340ba94fdf1341321aa
 	padding-left: 40px;
 }
 
@@ -175,6 +173,19 @@
 	height: 290px;
 	border-radius: 10px;
 	overflow: hidden;
+}
+
+.previewVideo::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	background-color: #282b2d;
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	top: calc(50% - 100px);
+	left: 30px;
 }
 
 .previewVideo::after {
@@ -301,10 +312,7 @@
 	border-radius: 10px;
 	overflow: hidden;
 	margin: 0 5px;
-<<<<<<< HEAD
 	cursor: pointer;
-=======
->>>>>>> 4f0106b4da71824357ac5340ba94fdf1341321aa
 	position: relative;
 }
 
