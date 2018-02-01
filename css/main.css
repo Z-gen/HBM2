@@ -1233,9 +1233,15 @@ h1 {
 
 /*Footer*/
 
+footer {
+    background-image: url(../img/leftBgPlans.png);
+    margin-top: 64px;
+}
+
 .FooterPaymentsOrange {
     background-color: #ffb836;
     position: relative;
+    top: -30px;
 }
 
 .topFooterBar__title {
@@ -1244,10 +1250,22 @@ h1 {
     position: absolute;
     display: inline-block;
     left: 0;
-    top: 0;
+    top: -13px;
     line-height: 1;
     padding: 28px 10px;
     text-transform: uppercase;
+}
+
+.topFooterBar__title::before {
+    content: '';
+    display: block;
+    width: 50vw;
+    height: 100px;
+    background-color: #2c2f31;
+    position: absolute;
+    top: 0;
+    left: -50vw;
+    z-index: 1;
 }
 
 .topFooterBar__title:after {
@@ -1280,6 +1298,17 @@ h1 {
     position: relative;
 }
 
+.topFooterBar__payments:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #ffb836;
+    height: 107px;
+    width: 50vw;
+    top: 0;
+    left: -50vw;
+}
+
 .topFooterBar__payments:after {
     position: absolute;
     right: -70px;
@@ -1293,6 +1322,140 @@ h1 {
 
 .topFooterBar__payments img {
     width: calc(100% - 180px);
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footerContent > div {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footerContent .mainInfo {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.footerContent .mainInfo > img {
+    margin-bottom: 30px;
+}
+
+.footerContent .mainInfo > p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.footerContent .mainInfo .socialMedia {
+    margin-top: 35px;
+}
+
+.footerContent .mainInfo .socialMedia > a {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/sprite.png);
+    margin: 0 2px;
+}
+
+.footerContent .mainInfo .socialMedia > a:first-child {
+    margin-left: 0;
+}
+
+.socialMedia > .fb__icon {
+    background-position: -125px -37px;
+}
+
+.socialMedia > .fb__icon:hover {
+    background-position: -125px -67px;
+}
+
+.socialMedia > .inst__icon {
+    background-position: -161px -37px;
+}
+
+.socialMedia > .inst__icon:hover {
+    background-position: -161px -67px;
+}
+
+.socialMedia > .in__icon {
+    background-position: -197px -37px;
+}
+
+.socialMedia > .in__icon:hover {
+    background-position: -197px -67px;
+}
+
+.socialMedia > .twi__icon {
+    background-position: -232px -37px;
+}
+
+.socialMedia > .twi__icon:hover {
+    background-position: -232px -67px;
+}
+
+.socialMedia > .yt__icon {
+    background-position: -267px -37px;
+}
+
+.socialMedia > .yt__icon:hover {
+    background-position: -267px -67px;
+}
+
+.footerContent .helpfulLinks ul {
+    font-size: 14px;
+    padding-left: 10px;
+    width: max-content;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.footerContent .helpfulLinks ul > li {
+    list-style-image: url(../img/footer_list_mark.png);
+    margin-bottom: 4px;
+}
+
+.footerContent .helpfulLinks ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerContent .helpfulLinks ul > li:hover,
+.footerContent .helpfulLinks ul > li:hover a {
+    color: #ffb836;
+    list-style-image: url(../img/footer_list_mark_hovered.png);
+}
+
+.footerContent .documentsContainer {
+    padding-left: 80px;
+}
+
+.footerContent .documentsContainer ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.footerContent .documentsContainer ul > li {
+    margin: 12px 0;
+}
+
+.footerContent .documentsContainer ul > li > a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footerContent .documentsContainer ul > li span {
+    background-image: url(../img/sprite.png);
+    vertical-align: -7px;
+    margin-right: 12px;
 }
 
 /*Footer*/
