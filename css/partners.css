@@ -1,0 +1,166 @@
+/* ==========================================================================
+   PARTNERS.HTML PAGE
+   ========================================================================== */
+
+
+.listHeader {
+	color: #4d4d4d;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: "PFBeauSansProRegular";
+}
+
+.sectionPartners {
+	padding-top: 20px;
+}
+
+.sectionPartners__item {
+	padding-bottom: 20px;
+}
+
+.partner__descrPart {
+	display: flex;
+	align-items: flex-start;
+	box-shadow: 0px 3px 30px -7px #00000052;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.partner__title {
+	display: inline-block;
+	color: #ffb836;
+	vertical-align: top;
+	top: 10px;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.partner__title::after {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 2px;
+	background-color: #ffb836;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.partner__description {
+	font-size: 12px;
+	color: #636363;
+	padding-left: 20px;
+}
+
+.partner__percents {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.partner__earningsPart {
+	padding-left: 6px;
+}
+
+.earnings {
+	display: flex;
+	box-shadow: 0px 3px 30px -7px #00000052;
+	border-radius: 10px;
+}
+
+.earnings .investments {
+	flex-basis: 50%;
+	padding: 25px 0px 25px 30px;
+	position: relative;
+}
+
+.earnings .investments:first-child:after {
+	content: '';
+	width: 5px;
+	height: 55px;
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-image: url(../img/sprite.png);
+	background-position: -125px -96px;
+	opacity: 0.3;
+}
+
+.earnings .investments > p {
+	font-size: 12px;
+	color: #636363;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.earnings .investments > .money {
+	font-size: 18px;
+	color: #ffb836;
+	font-weight: 600;
+}
+
+
+.levels {
+	display: flex;
+	padding-top: 25px;
+}
+
+.levelsGroup {
+	flex-basis: 50%;
+	list-style-image: url(../img/list_mark.png);
+}
+
+.levelsGroup > li {
+	margin-bottom: 10px;
+}
+
+.level {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #868686;
+	vertical-align: 2px;
+}
+
+.percents {
+	display: inline-block;
+	background-color: #2a2d2f;
+	color: #fff;
+	border-radius: 5px;
+	margin-left: 13px;
+	font-size: 12px;
+	padding: 4px 10px;
+	vertical-align: 2px;
+}
+
+.sectionRules {
+	padding-top: 10px;
+}
+
+.sectionRules ul {
+	padding-left: 20px;
+	padding-top: 35px;
+}
+
+.restrictions {
+	color: #636363;
+	line-height: 19px;
+}
+
+.restrictionsList {
+	padding-bottom: 10px;
+	padding-left: 0 !important;
+	list-style-type: none;
+}
+
+.investments__percentage > li {
+	color: #ffc14e;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.investments__percentage > li > span {
+	font-size: 14px;
+	color: #636363;
+}
