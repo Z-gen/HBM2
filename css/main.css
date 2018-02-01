@@ -458,11 +458,11 @@ h1 {
 .underSlider ul:after {
     content: '';
     position: absolute;
-    right: -49px;
+    right: -44px;
     top: 0;
     background-image: url(../img/sprite.png);
     background-position: 0px -172px;
-    width: 50px;
+    width: 44px;
     height: 100%;
 }
 
@@ -923,17 +923,17 @@ h1 {
     background-image: url(../img/sprite.png);
     width: 12px;
     height: 15px;
-    background-position: -313px -35px;
+    background-position: -313px -34px;
     cursor: pointer;
     position: absolute;
     right: 5px;
-    top: 2px;
+    top: 0px;
     z-index: 100;
 }
 .stepSlider__prevArr:hover {
-    background-position: -301px -35px;
+    background-position: -301px -34px;
     transform: rotate(0deg);
-    top: 2px;
+    top: 0px;
 }
 .stepSlider__nextArr:hover {
     background-position: -301px -35px;
