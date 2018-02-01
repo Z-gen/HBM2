@@ -92,4 +92,9 @@ $(document).ready(function(){
 		
 	});
 
+	$(".calculateTopBar__btnCurrency button").click(function(){
+		$(".calculateTopBar__btnCurrency button").removeClass("activeCur");
+		$(this).addClass("activeCur");
+	});
+
 });
