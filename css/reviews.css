@@ -165,7 +165,6 @@
 
 .previewVideo {
 	padding-bottom: 36px;
-	overflow: hidden;
 	padding-left: 40px;
 }
 
@@ -175,7 +174,8 @@
 	overflow: hidden;
 }
 
-.previewVideo::before {
+.videoReview .previewVideo::before,
+.videoNews .previewVideo::before  {
 	content: '';
 	display: block;
 	position: absolute;

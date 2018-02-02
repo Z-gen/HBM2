@@ -1,0 +1,109 @@
+.btnNext {
+		width: 35px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 3px 10px rgba(136, 136, 136, 0.3);
+    position: relative;
+    top: calc(50% - 20px);
+}
+
+.btnNext span {
+	  background-position: -313px -34px;
+    width: 10px;
+    height: 14px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+.planCardItem__calculateOfProfit {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.planCardItem__calculateOfProfit__value span {
+	color: #ffba41;
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.planCardItem__calculateOfProfit__currency {
+	float: right;
+	background-color: #ffba41;
+	color: #fff;
+	font-size: 12px;
+	padding: 3px 8px;
+	border-radius: 8px;
+}
+
+.planCardItem__calculateOfProfit__value {
+	padding: 12px 8px 10px 15px;
+	box-shadow: 0px 4px 10px rgba(153, 153, 153, 0.12);
+	border-radius: 8px;
+}
+
+.planCardItem__calculateOfProfit__title {
+	margin-bottom: 50px;
+	padding-top: 10px;
+}
+
+.planCardItem__calculateOfProfit__valueWrap p {
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+.planSectionTop__profitItem {
+	color: #fff;
+	position: relative;
+	padding: 0 20px 20px;
+	line-height: 1;
+}
+
+.planSectionTop__profitItem:first-child {
+	padding-top: 20px;
+}
+
+.planSectionTop__profitItem:last-child {
+	padding-bottom: 20px;
+}
+
+.planSectionTop__profitTitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.planSectionTop__profitValue {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    float: right;
+    padding-right: 5px;
+    margin-top: -2px;
+    font-family: "PFBeauSansProLight";
+}
+
+.planSectionTop__profits {
+	border-radius: 7px;
+	background-color: #2f3133;
+	margin-top: 20px;
+}
+
+.planSection__text {
+	color: #949494;
+	margin-top: 25px;
+	font-size: 12px;
+}
+
+.planSection__text p {
+	margin-bottom: 0;
+}
+
+.planSectionItem  {
+	padding-top: 35px;
+}

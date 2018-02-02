@@ -32,6 +32,7 @@ $(document).ready(function(){
 	});
 
 
+	/*SLIDER VIDEO ON REVIEW PAGE*/
 
 	$('.videoReview__previewSlider').slick({
 		infinite: true,
@@ -67,6 +68,47 @@ $(document).ready(function(){
 		nextArrow: '<div class="hidden"></div>'
 	});
 
+	/*SLIDER VIDEO ON REVIEW PAGE*/
+
+
+	/*SLIDER VIDEO ON HOME PAGE*/
+
+	$('.videoNews__previewSlider').slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		fade: true,
+		draggable: false,
+		swipe: false,
+		arrows: false
+	});
+
+
+	$('.videoNews__TopRowSlider').slick({
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		infinite: true,
+		focusOnSelect: true,
+		draggable: false,
+		asNavFor: '.videoNews__previewSlider',
+		nextArrow: '<div class="rowSlider__nextArr"></div>',
+		prevArrow: '<div class="hidden"></div>'
+
+	});
+
+	$('.videoNews__BottomRowSlider').slick({
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		infinite: true,
+		focusOnSelect: true,
+		draggable: false,
+		asNavFor: '.videoNews__previewSlider',
+		prevArrow: '<div class="rowSlider__prevArr"></div>',
+		nextArrow: '<div class="hidden"></div>'
+	});
+
+	/*end SLIDER VIDEO ON HOME PAGE*/
+
 	$(".sliderSteps .slick-arrow").click(function(){
 		if($("#sliderStep__item_1").hasClass("slick-current")) {
 			$(".stepNumbers ul li").removeClass("active");
@@ -95,6 +137,40 @@ $(document).ready(function(){
 	$(".calculateTopBar__btnCurrency button").click(function(){
 		$(".calculateTopBar__btnCurrency button").removeClass("activeCur");
 		$(this).addClass("activeCur");
+	});
+
+
+	$(".pressCenterSlider").slick({
+	  centerMode: true,
+	  centerPadding: '60px',
+	  autoplay: true,
+		autoplaySpeed: 2000,
+	  slidesToShow: 3,
+	  responsive: [
+	    {
+	      breakpoint: 768,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '40px',
+	        slidesToShow: 3
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '40px',
+	        slidesToShow: 1
+	      }
+	    }
+	  ]
+	});
+
+	$(".pressCenterSliderPreview button").click(function(){
+		$(".pressCenterSlider__cont").removeClass("activeBlock");
+		$(this).parents(".pressCenterSlider__cont").addClass("activeBlock");
 	});
 
 });
