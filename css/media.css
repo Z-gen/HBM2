@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1230px) {
+.FooterPaymentsOrange {
+		left: -40px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.headerAuth__item {
+		padding: 26px 5px
+	}
+	.headerAuth {
+		padding-left: 0;
+	}
+	.headerAuth__text {
+		font-size: 11px;
+	}
+	.headerLang__langName p {
+		font-size: 14px;
+	}
+	.headerLang__langImg {
+		width: 25px;
+	}
+	.headerLang__langName {
+		margin-left: 0;
+	}
+	.underSlider ul li {
+		font-size: 12px;
+	}
+	.contactTelegram .btn-usually {
+		padding: 7px 5px;
+	}
+	.headerInfo__item {
+		padding: 20px 35px;
+	}
+	.stepNumbers {
+		margin-right: -15px;
+	}
+	.stepNumbers ul li {
+		font-size: 14px;
+	}
+	.planCardItem__infoCardItem span {
+		bottom: 10px;
+	}
+	.topFooterBar__payments {
+		height: 107px;
+	}
+	
+	.planCalculate:after {
+		display: none;
+	}
+	
+
+}
+@media only screen and (max-width: 992px) {
+	.mainHeaderMenu__listItem:after {
+		display: none;
+	}
+	.mainHeaderMenu__linkItem {
+		padding: 25px 5px;
+	}
+	.mainHeaderMenu {
+		text-align: center;
+		font-size: 12px;
+	}
+}

@@ -173,4 +173,41 @@ $(document).ready(function(){
 		$(this).parents(".pressCenterSlider__cont").addClass("activeBlock");
 	});
 
+	$(".btnReadMore").click(function(){
+		$(".pressCenterSlider__cont").removeClass("activeBlock");
+		$(this).parents(".pressCenterSlider__cont").toggleClass("activeBlock");
+	});
+
+	$(".newsList__titleItem").click(function(){
+		$(".newsList__titleItem").removeClass("activeTitle");
+		$(this).addClass("activeTitle");
+		if($(this).attr('data-list') == "0") {
+			$("#newsList__BodyItem_1").removeClass("activeList");
+			$("#newsList__BodyItem_0").addClass("activeList");
+		} else {
+			$("#newsList__BodyItem_0").removeClass("activeList");
+			$("#newsList__BodyItem_1").addClass("activeList");
+		}
+	});
+
+	$('.videoNewsSectionSlider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: true,
+		draggable: false,
+		asNavFor: '.underVideoSlider',
+		nextArrow: '<div class="NewsSection__nextArrow"></div>',
+		prevArrow: '<div class="NewsSection__prevArrow"></div>'
+	});
+
+	$(".underVideoSlider").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: true,
+		draggable: false,
+		asNavFor: '.videoNewsSectionSlider'
+	});
+
+
+
 });
