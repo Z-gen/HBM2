@@ -53,7 +53,21 @@ $(document).ready(function(){
 		draggable: false,
 		asNavFor: '.videoReview__previewSlider',
 		nextArrow: '<div class="rowSlider__nextArr"></div>',
-		prevArrow: '<div class="hidden"></div>'
+		prevArrow: '<div class="hidden"></div>',
+		responsive: [
+			{
+				breakpoint: 590,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 400,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
 
 	});
 
@@ -65,7 +79,21 @@ $(document).ready(function(){
 		draggable: false,
 		asNavFor: '.videoReview__previewSlider',
 		prevArrow: '<div class="rowSlider__prevArr"></div>',
-		nextArrow: '<div class="hidden"></div>'
+		nextArrow: '<div class="hidden"></div>',
+		responsive: [
+			{
+				breakpoint: 590,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 400,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
 	});
 
 	/*SLIDER VIDEO ON REVIEW PAGE*/
