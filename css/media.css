@@ -4,7 +4,7 @@
 	}
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
 	.headerAuth__item {
 		padding: 26px 5px
 	}
@@ -48,10 +48,26 @@
 	.planCalculate:after {
 		display: none;
 	}
-	
+	.logo.headerLogo img {
+		max-width: 100%;
+	}
+	.horiz_separator img {
+		max-width: 100%;
+	}
+	.levelsGroup {
+		padding-left: 25px;
+	}
+
+	.planCardItem__infoCardItem p {
+		font-size: 10px;
+	}
+	.planCardItem__calculateOfProfit__title {
+		font-size: 14px;
+	}
+
 
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
 	.mainHeaderMenu__listItem:after {
 		display: none;
 	}
@@ -62,4 +78,614 @@
 		text-align: center;
 		font-size: 12px;
 	}
+	.headerLogo:after,
+	.headerLogo:before,
+	.bottomHeaderMenu:after {
+		display: none;
+	}
+	.bottomHeaderMenu {
+    box-shadow: 0 5px 10px rgba(108, 108, 108, 0.1);
+    padding-bottom: 25px;
+	}
+	.headerLang__lang_main {
+		white-space: nowrap;
+	}
+	.headerAuth {
+		text-align: right;
+	}
+	.logo.headerLogo{
+		padding-top: 15px;
+	}
+	.headerAuth__item {
+    padding: 5px 5px;
+	}
+	.headerLang {
+	  position: relative;
+    right: -35px;
+    padding-top: 30px;
+  }
+  .pageHeader {
+  	margin-top: 80px;
+  }
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+	}
+	.footerContent .helpfulLinks ul {
+		margin-top: 0;
+	}
+	.footerContent .mainInfo {
+		margin-bottom: 15px;
+	}
+	.previewVideo__thumbContainer,
+	.videoReview__2RowsSliderWrapper {
+		height: 250px;
+	}
+	.videoItem {
+		height: 115px;
+	}
+	.footerContent .documentsContainer {
+		padding-left: 0;
+	}
+	.partner__earningsPart {
+		padding: 0;
+	}
+	.levelsGroup {
+		padding-left: 50px;
+	}
+	.companyContacts h3 {
+		margin-bottom: 25px;
+		font-size: 16px;
+	}
+	.listContacts_contactsPage .listContacts__item {
+		padding-left: 30px;
+		font-size: 12px;
+	}
+	.react_TabWidget ul li .toggle-item-caption {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+	}
+	.planSectionItem  .btnNext {
+		margin: 0 -9px;
+	}
+	.planCardItem__infoCardItem {
+		height: 85px;
+	}
+	.planCardItem__infoCardItem span {
+    position: relative;
+    left: 0;
+    padding: 5px 0 10px;
+    display: block;
+    margin: 0;
+	}
+	.sliderHome h1 {
+		font-size: 35px;
+	}
+	.headerVerify__text span {
+		font-size: 14px;
+	}
+	.headerVerify__btn {
+		padding: 10px 15px;
+		font-size: 12px;
+		margin-top: 15px;
+	}
+	.headerInfo__item {
+    padding: 20px 20px;
+	}
+	.listContacts__item {
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+	.contactTelegram .btn-usually {
+    padding: 6px 5px;
+    margin: 5px 0;
+	}
+	.socialNetwork {
+		margin-top: 5px;
+	}
+	.headerInfo__bodyItem {
+		padding-top: 15px;
+	}
+	.underSlider {
+		display: none;
+	}
+	.stepNumbers ul li .stepNumbers__text {
+		margin-left: 0;
+	}
+	.stepNumbers ul li {
+    font-size: 12px;
+    white-space: nowrap;
+	}
+	.stepNumbers {
+		margin-left: -10px;
+	}
+	.sectionPlans__title:before {
+		top: 0;
+	}
+	.sectionPlans__title {
+    font-size: 30px;;
+    padding-top: 5px;
+    padding-bottom: 60px;
+    background-position: right 0px;
+	}
+	.sectionVideoNews  .videoNews__previewSliderWrapper,
+	.sectionVideoNews .videoNews__2RowsSliderWrapper {
+		width: 100%;
+		margin-left: 0;
+	}
+	.sectionVideoNews .videoNews {
+		flex-direction: column;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.sectionReviews__item {
+		margin-bottom: 60px;
+	}
+
+	.btn_toggle {
+		display: block;
+	}
+
+
+	.videoReview {
+		flex-wrap: wrap;
+	}
+
+	.videoReview__previewSliderWrapper {
+		margin-left: -2px;
+		flex-basis: 100%;
+		padding-bottom: 20px;
+	}
+
+	.videoReview__2RowsSliderWrapper {
+		flex-basis: 100%;
+	}
+	.menuScroll {
+		display: none;
+	}
+	.mainHeader {
+		padding-top: 0;
+	}
+
+	.mobileMenu {
+		display: block;
+		position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2a2d2f;
+    background-repeat: repeat;
+    left: -100%;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-image: url(../img/header.png);
+    z-index: 10000;
+	}
+	.mobileMenu.activeMenu {
+		left: 0;
+	}
+	.mainHeaderMenu__listItem {
+		display: block;
+	}
+	.mainHeaderMenu__linkItem:after {
+		display: none;
+	}
+	.mainHeaderMenu__linkItem {
+		padding: 10px 0;
+		font-size: 16px;
+	}
+	.mainHeaderMenu {
+		padding-top: 5%;
+	}
+	.logo.headerLogo img {
+		margin: auto;
+		display: block;
+	}
+	.hidden-sm {
+		display: none;
+	}
+	.mobileMenu .headerAuth {
+		display: block;
+		text-align: center;
+	}
+	.mobileMenu .headerAuth__item {
+		display: block;
+		padding: 15px 5px;
+	}
+	.mobileMenu .headerAuth__item a .spriteMain {
+		display: none;
+	}
+	.mobileMenu .headerLang {
+		display: block;
+		left: 0;
+		top: 0;
+		right: 0;
+		text-align: center;
+		padding: 15px 0px;
+	}
+	.headerLang__langName,
+	.headerAuth__text p {
+		color: #fff;
+	}
+	.topFooterBar {
+		display: none;
+	}
+	.bottomFooterBar {
+		padding-top: 25px;
+	}
+	.review__text {
+		font-size: 12px;
+	}
+	.restrictions {
+		padding-top: 60px;
+	}
+
+	.companyContacts {
+    margin-top: 35px;
+    margin: 35px auto 0;
+    max-width: 240px;
+	}
+	.pageHeader {
+    margin-top: 60px;
+	}
+	.react_TabWidget .tabs .react_TabItem {
+		margin-left: 10px;
+	}
+	.newsList__textCont {
+		margin-top: 35px;
+	}
+	.newsList__item {
+		margin-bottom: 60px;
+	}
+	.NewsSection__nextArrow {
+		width: 60px;
+		right: 0;
+	}
+	.NewsSection__prevArrow {
+		width: 60px;
+		left: 0;
+	}
+	.planSectionItem .btnNext {
+    margin: 25px auto;
+    transform: rotate(90deg);
+    display: block;
+    top: 0;
+	}
+	.btnNext span {
+		position: relative;
+		top: 10px;
+	}
+	.planCardItem__infoCardItem {
+		max-width: 200px;
+	}
+	.planCardItem__infoCards,
+	.planSectionTop  {
+		text-align: center;
+	}
+	.planCardItem__calculateOfProfit__title {
+		margin-bottom: 20px;
+	}
+	.planCardItem__infoCardItem p {
+		font-size: 14px;
+	}
+	.planCardItem__infoCardItem {
+    height: 100px;
+	}
+	.headerInfo {
+    top: 0px;
+    margin: 40px 0;
+	}
+	.stepNumbers {
+		display: none;
+	}
+	.sliderStepImgSlider  .slick-slide img {
+		margin: auto;
+	}
+	.sectionPlans__title {
+    padding-top: 65px;
+    padding-bottom: 70px;
+	}
+	.sectionPlans__cards {
+		margin-top: 0;
+		top: 20px;
+	}
+	.planCardItem__nameCard {
+		margin: 10px 0;
+		text-align: center;
+	}
+	.rowSlider__nextArr,
+	.rowSlider__prevArr {
+		right: 0;
+		z-index: 1000;
+	}
+}
+
+
+
+
+@media (max-width: 575px) {
+	.videoReview__2RowsSliderWrapper {
+		padding-right: 20px;
+	}
+	.logo.headerLogo img {
+		margin-left: 0;
+	}
+
+	/* CHANGES FOR MAIN.CSS */
+	/* ATTENTION !!!111111111 */
+
+	.pageHeader {
+		padding-left: 23px;
+		line-height: 49px;
+	}
+	/* END OF ATTENTION */
+	/* THANX!!!!!!! */
+
+	.review {
+		display: block;
+		margin-bottom: 20px;
+	}
+	.review__quoteSeparatorWrapper {
+		display: none;
+	}
+	.review__reviewerInfoWrapper {
+		padding-bottom: 20px;
+	}
+
+	.partner__descrPart {
+		flex-wrap: wrap;
+	}
+
+	.react_TabWidget .tabs .react_TabItem::after {
+		display: none;
+	}
+	.react_TabWidget .tabs .react_TabItem div {
+		font-size: 12px;
+		margin: 20px 0px 20px 0px;
+	}
+	.react_TabWidget .tabs .react_TabItem {
+		border-radius: 5px 5px 0 0px;
+	}
+	.reactTabWidget .react_TabWidget .tabs {
+		text-align: center;
+	}
+	.react_TabItem.selected::before {
+		width: 100%;
+	}
+
+	.titleSkew__orange.prieviewTitle {
+    text-align: left;
+    left: -40px;
+    top: 0;
+    z-index: -1;
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+	}
+	.sectionPlans__title {
+    padding-top: 50px;
+    color: #000;
+    padding-bottom: 0px;
+    background-image: none;
+	}
+	.sectionPlans__title:before {
+		display: none;
+	}
+	.sectionPlans__descriptionTop {
+		padding-left: 15px;
+	}
+	.sectionPlans {
+		padding-bottom: 65px;
+	}
+	.sliderHome {
+		margin-top: 50px;
+	} 
+	.sliderHome h1 {
+    font-size: 30px;
+	}
+
+	.sectionPressCenter .sectionHeaderSquare,
+	.sectionPressCenter .sectionDescription {
+		padding: 0 15px;
+	}
+	.sectionPressCenter {
+		padding-top: 20px;
+	}
+
+
+}
+
+
+@media (max-width: 479px) {
+
+	.review__reviewerInfoWrapper {
+		padding-left: 20px;
+	}
+
+	.review__textWrapper {
+		padding: 10px 20px;
+	}
+
+	.review__quoteSeparatorWrapper {
+		margin-right: 20px;
+		margin-left: 0;
+	}
+
+	.review__textWrapper:after {
+		display: none;
+	}
+
+	.reviewStats__num,
+	.reviewStats__descr {
+		width: 100%;
+		text-align: center;
+		padding-top: 0;
+	}
+	.pageHeader {
+		padding-right: 30px;
+	}
+	.pageHeader {
+    margin-top: 40px;
+	}
+	.levelsGroup {
+		padding-left: 25px;
+	}
+	.sectionForm .inputCont {
+		width: 100%;
+	}
+	.offices {
+		flex-direction: column;
+	}
+	.offices__item {
+		margin-bottom: 20px;
+	}
+	.react_TabWidget .tabs .react_TabItem {
+		padding: 0 8px;
+	}
+	.questionContacts p {
+		font-size: 15px;
+	}
+	.questionContacts {
+		padding: 25px;
+	}
+	.newsSection .videoNews__previewSliderWrapper {
+		display: none;
+	}
+	.newsItems .btnReadMore {
+		display: block;
+		margin: 10px 0;
+	}
+
+	.newsItems .pressCenterSlider__date {
+    position: absolute;
+    right: 0;
+    top: 10px;
+	}
+	.pressCenterSlider__date > span {
+		font-size: 25px;
+	}
+	.pressCenterSlider__dateInfo span {
+		font-size: 10px;
+	}
+	.wrap_chart {
+		display: none;
+	}
+	.planCardItem__infoCards {
+		padding-right: 15px !important;
+	}
+	.sectionVideoNews  {
+		display: none;
+	}
+	.videoNews__2RowsSliderWrapper  {
+		display: none;
+	}
+	.sliderHome {
+		margin-top: 30px;
+	}
+	.sliderHome h1 {
+    font-size: 28px;
+	}
+	.titleSkew__orange {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.videoReview__2RowsSliderWrapper {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	.previewVideo::after {
+		display: none;
+	}
+
+	.review__textWrapper {
+		padding: 10px 5px;
+	}
+	.review__avatar {
+		display: none;
+	}
+	.review__reviewerInfoWrapper {
+		padding-left: 0;
+	}
+	.partner__descrPart {
+		padding: 20px;
+	}
+
+	.levelsGroup .percents {
+		float: right;
+	}
+	.logo.headerLogo img {
+    max-width: 70%;
+    padding-top: 10px;
+	}
+	.mainHeaderMenu__linkItem {
+    padding: 5px 0;
+    font-size: 12px;
+	}
+	.react_TabWidget .tabs .react_TabItem div {
+    font-size: 10px;
+    margin: 10px 0px 5px 0px;
+	}
+	.react_TabWidget .tabs .react_TabItem {
+    padding: 0 2px;
+    height: 40px;
+    margin-left: 5px;
+	}
+	.questionContacts__separator {
+    height: 2px;
+    width: 90px;
+    margin: 8px 0;
+	}
+	.questionContacts .text_16px {
+    font-size: 14px;
+	}
+	.planCardItem__infoCardItem {
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+	}
+	.previewText {
+		font-size: 12px;
+	}
+	.previewVideoHome .previewVideo__thumbContainer {
+    height: 260px;
+	}
+
+
+}
+
+@media (max-width: 348px) {
+	.review__quoteSeparatorWrapper {
+		display: none;
+	}
+	.newsList__imageCont:after,
+	.newsList__imageCont:before {
+		display: none;
+	}
+	.pressCenterSlider__title {
+		width: 100%;
+	}
+	.pressCenterSlider__date {
+		width: 100%;
+	}
+	.pressCenterSlider__cont {
+		padding: 20px 15px;
+	}
+	.pressCenterSliderPreview {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 320px) {
+
 }

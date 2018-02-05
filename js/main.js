@@ -176,16 +176,16 @@ $(document).ready(function(){
 	  slidesToShow: 3,
 	  responsive: [
 	    {
-	      breakpoint: 768,
+	      breakpoint: 970,
 	      settings: {
 	        arrows: false,
 	        centerMode: true,
 	        centerPadding: '40px',
-	        slidesToShow: 3
+	        slidesToShow: 2
 	      }
 	    },
 	    {
-	      breakpoint: 480,
+	      breakpoint: 600,
 	      settings: {
 	        arrows: false,
 	        centerMode: true,
@@ -234,6 +234,12 @@ $(document).ready(function(){
 		infinite: true,
 		draggable: false,
 		asNavFor: '.videoNewsSectionSlider'
+	});
+
+
+	$(".btn_toggle").click(function(){
+		$(this).toggleClass("activeToggle");
+		$(".mobileMenu").toggleClass("activeMenu");
 	});
 
 
